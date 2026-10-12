@@ -1,0 +1,15 @@
+#ghim-modal {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 2147483646 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  overflow: hidden !important;
+  color-scheme: dark;
+}
