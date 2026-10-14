@@ -1,13 +1,13 @@
 "use strict";
 
-const api = globalThis.__zenGithubImageModal;
+const api = globalThis.__glance;
 if (!api) {
-  console.error("GitHub Image Modal: link helper missing");
+  console.error("Glance: link helper missing");
 }
 const { screenshotUrl, isPlainLeftClick, wrapIndex } = api || {};
 
-if (api && !globalThis.__zenGithubImageModalInstalled) {
-  globalThis.__zenGithubImageModalInstalled = true;
+if (api && !globalThis.__glanceInstalled) {
+  globalThis.__glanceInstalled = true;
   document.addEventListener("click", onClick, true);
 }
 
@@ -27,7 +27,7 @@ function onClick(event) {
     try {
       openViewer({ anchor, image, href });
     } catch (error) {
-      console.error("GitHub Image Modal", error);
+      console.error("Glance", error);
     }
   }, 0);
 }

@@ -1,4 +1,4 @@
-# GitHub Image Modal
+# Glance
 
 A tiny Firefox extension that opens GitHub pull request and issue screenshots in a modal. The page stays where it is.
 
@@ -24,7 +24,7 @@ Zen and Firefox both refuse an unsigned add-on until signature checks are off.
 
 ### Download
 
-1. Grab `GitHubImageModal.xpi` from the [latest release](https://github.com/AndreCamm/GitHubImageModal/releases/latest).
+1. Grab `Glance.xpi` from the [latest release](https://github.com/AndreCamm/Glance/releases/latest).
 2. Open `about:addons`.
 3. Open the gear menu. Choose **Install Add-on From File**.
 4. Select the `.xpi` file.
@@ -33,12 +33,12 @@ Zen and Firefox both refuse an unsigned add-on until signature checks are off.
 ### Build from source
 
 ```
-git clone https://github.com/AndreCamm/GitHubImageModal.git
-cd GitHubImageModal
+git clone https://github.com/AndreCamm/Glance.git
+cd Glance
 ./build.sh
 ```
 
-The packed file is `dist/GitHubImageModal.xpi`. Install it with the steps above.
+The packed file is `dist/Glance.xpi`. Install it with the steps above.
 
 You can also load the folder as a temporary add-on. Open `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on**, and select `manifest.json`. That copy lasts until you quit the browser.
 

@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "GitHub Image Modal",
+  "name": "Glance",
   "version": "1.0.1",
   "description": "Open GitHub pull request and issue screenshots in a modal instead of a new tab.",
   "browser_specific_settings": {

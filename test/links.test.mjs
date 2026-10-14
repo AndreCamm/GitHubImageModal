@@ -7,7 +7,7 @@ const sandbox = {
 };
 vm.createContext(sandbox);
 vm.runInContext(readFileSync(new URL("../lib/links.js", import.meta.url), "utf8"), sandbox);
-const api = sandbox.__zenGithubImageModal;
+const api = sandbox.__glance;
 
 let passed = 0;
 
