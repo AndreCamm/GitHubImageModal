@@ -24,7 +24,7 @@ Zen and Firefox both refuse an unsigned add-on until signature checks are off.
 
 ### Download
 
-1. Grab `Glance.xpi` from the [latest release](https://github.com/AndreCamm/Glance/releases/latest).
+1. Grab `Glance.xpi` from the [latest release](https://github.com/ndre-dev/Glance/releases/latest).
 2. Open `about:addons`.
 3. Open the gear menu. Choose **Install Add-on From File**.
 4. Select the `.xpi` file.
@@ -33,7 +33,7 @@ Zen and Firefox both refuse an unsigned add-on until signature checks are off.
 ### Build from source
 
 ```
-git clone https://github.com/AndreCamm/Glance.git
+git clone https://github.com/ndre-dev/Glance.git
 cd Glance
 ./build.sh
 ```
